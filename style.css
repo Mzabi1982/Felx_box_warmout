@@ -61,8 +61,56 @@ order:2;
   
     width: 90%;
     margin: auto;
+    margin-bottom: 2rem;
       
 
+}
+
+.banner{
+    width: 500px;
+    height: 400px;
+    
+    margin: auto;
+    background-color: black;
+    color:white;
+    display: flex;
+}
+
+.kj{
+    margin: auto;
+    text-align: center;
+}
+
+.div1{
+background-color: green;
+flex:1;
+display: flex;
+
+}
+.div2{
+    background-color: red;
+    flex:1;
+    display: flex;
+}
+
+.nabil{
+    flex:1;
+    padding: 0.5rem;
+}
+.adil{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+#final{
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+}
+span{
+    margin: auto;
 }
 
 @media (min-width:900px){
