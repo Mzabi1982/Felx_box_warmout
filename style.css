@@ -2,6 +2,15 @@ body{
     margin: 4rem;
 }
 
+form{
+    width: 80%;
+    height: auto;
+    background: gray;
+    color:black;
+    align-content: left;
+    padding: 3rem;
+    margin: auto;
+}
 .form-row{
     padding: 10px 0;
     display: flex;
@@ -9,9 +18,40 @@ body{
 
 .form-row label{
     padding-right: 10px;
-
+    
 }
+
 .form-row input{
     flex:1;
 
+}
+
+section{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    align-content: left;
+    background-color: gray;
+    color:black;
+    margin: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+
+.one{
+flex:1;
+order:2;
+}
+
+.tow{
+    flex:1;
+    order:1;
+    
+
+}
+
+.three{
+    flex:1;
+    order:3;
 }
