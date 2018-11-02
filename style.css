@@ -2,6 +2,34 @@ body{
     margin: 4rem;
 }
 
+
+
+#modal{
+    width: 80%;
+    position: relative;
+    left: 7%;
+    padding:1rem;
+    background-color:#F8F3F3;
+    
+    margin: 1rem;
+}
+
+.wrapper{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    width: 300px;
+
+}
+
 form{
     width: 80%;
     height: auto;
@@ -129,3 +157,4 @@ span{
 #style1{flex-basis:30%;order:1;background-color: red;padding: 0.5rem;text-align: left;color: black}
 #style2{flex-basis:30%;background-color: green;padding: 0.5rem;text-align: left;color: black}
 #style3{flex-basis:30%;background-color:yellow;padding: 0.5rem;text-align: left;color: black}
+
